@@ -1,0 +1,22 @@
+
+
+<ion-content class="ion-padding">
+  <div class="im">
+  <img src="assets/img/tanmet.jpg" >
+</div>
+<br><br>
+
+<div class="form">
+  <form (ngSubmit)="login(form)">
+    
+      <ion-input name="email" type="email" placeholder="some@email.com" [(ngModel)]="user.email"></ion-input>
+    
+    <br>
+   
+      <ion-input name="password" type="password" placeholder="password" [(ngModel)]="user.password"></ion-input>
+   
+    <ion-button size="large"   expand="block"  (click)="login()">Login</ion-button>
+    
+  </form>
+</div>
+</ion-content>

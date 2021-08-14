@@ -1,0 +1,35 @@
+ion-content{
+  --padding-top:162px;
+}
+img{
+  border: 1px solid darkgray;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    
+}
+ion-input{
+  border: 1px solid   darkgray;
+    border-radius: 5px;
+    // padding: 10px;
+}
+// .form{
+//   display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+ion-button{
+
+    font-weight: bold;
+    display: flex;
+   align-items: center;
+    margin-top: 25px;
+    height: 40px;
+    --background: darkgray;
+}
+.im{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 22px;
+  margin-top: 15px;
+}
